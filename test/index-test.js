@@ -4,7 +4,7 @@ it('Hello, everybody!', function() {
   expect(greeting).toEqual("Hello, everybody!")
 })
 
-it("Hello " + specialGuest + "!", function() {
+it("Hello, " + specialGuest + "!", function() {
   expect(greetSpecialGuest).toEqual(`Hello, ${specialGuest}!`)
 })
 
